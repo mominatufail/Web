@@ -1,18 +1,21 @@
 import 'package:flutter/material.dart';
 
-class Desktophomeview extends StatefulWidget {
-  const Desktophomeview({super.key});
+class DesktopHomeView extends StatefulWidget {
+  const DesktopHomeView({super.key});
 
   @override
-  State<Desktophomeview> createState() => _DesktophomeviewState();
+  State<DesktopHomeView> createState() => _DesktopHomeViewState();
 }
 
-class _DesktophomeviewState extends State<Desktophomeview> {
+class _DesktopHomeViewState extends State<DesktopHomeView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        height: double.infinity,width: double.infi
+        height: double.infinity,
+        width: double.infinity,
+        color: Colors.purple,
+
       ),
     );
   }
