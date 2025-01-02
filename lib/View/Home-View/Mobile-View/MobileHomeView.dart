@@ -14,9 +14,9 @@ class _MobileHomeViewState extends State<MobileHomeView> {
       body: Container(
         height: double.infinity,
         width: double.infinity,
-        color: Colors.green.shade900,
-
+        color: Colors.purple.shade300,
       ),
+
     );
   }
 }

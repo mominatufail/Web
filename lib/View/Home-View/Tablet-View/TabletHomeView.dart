@@ -14,7 +14,7 @@ class _TabletHomeViewState extends State<TabletHomeView> {
       body: Container(
         height: double.infinity,
         width: double.infinity,
-        color: Colors.pink.shade300,
+        color: Colors.lightGreenAccent,
 
       ),
     );

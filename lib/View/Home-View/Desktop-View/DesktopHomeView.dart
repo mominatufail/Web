@@ -14,7 +14,7 @@ class _DesktopHomeViewState extends State<DesktopHomeView> {
       body: Container(
         height: double.infinity,
         width: double.infinity,
-        color: Colors.purple,
+        color: Colors.pink.shade300,
 
       ),
     );
