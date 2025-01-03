@@ -15,8 +15,10 @@ class _DesktopHomeViewState extends State<DesktopHomeView> {
         height: double.infinity,
         width: double.infinity,
         color: Colors.pink.shade300,
+        child: Center(child: Text('Desktop View',style: TextStyle(color: Colors.black87)),
+
 
       ),
-    );
+      ));
   }
 }
