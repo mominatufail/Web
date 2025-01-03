@@ -15,7 +15,7 @@ class _TabletHomeViewState extends State<TabletHomeView> {
         height: double.infinity,
         width: double.infinity,
         color: Colors.lightGreenAccent,
-        child: Center(child: Text('Tablet View',style: TextStyle(color: Colors.black87)),
+        child: Center(child: Text('Tablet View',style: TextStyle(color: Colors.black87,fontSize: 20)),
 
 
     ),

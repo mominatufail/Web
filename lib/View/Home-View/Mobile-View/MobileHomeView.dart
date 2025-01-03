@@ -15,7 +15,7 @@ class _MobileHomeViewState extends State<MobileHomeView> {
         height: double.infinity,
         width: double.infinity,
         color: Colors.purple.shade300,
-        child: Center(child: Text('Mobile View',style: TextStyle(color: Colors.black87)),
+        child: Center(child: Text('Mobile View',style: TextStyle(color: Colors.black87,fontSize: 20)),
 
     ),
 
