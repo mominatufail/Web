@@ -8,7 +8,7 @@ class ResponsiveLayout extends StatelessWidget {
   Widget Mobile;
 
   ResponsiveLayout({super.key,
-    
+
   required this.Desktop,
   required this.Tablet,
   required this.Mobile
