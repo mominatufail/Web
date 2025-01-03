@@ -19,7 +19,8 @@ class _TabletHomeViewState extends State<TabletHomeView> {
 
 
     ),
-      ),
+    ),
+      ));
 
   }
 }
