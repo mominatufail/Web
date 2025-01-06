@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
+//import 'package:url_launcher/url_launcher.dart';
 
 class DesktopHomeView extends StatefulWidget {
   const DesktopHomeView({super.key});
@@ -39,12 +39,13 @@ class _DesktopHomeViewState extends State<DesktopHomeView> {
     height: double.infinity,
     width: double.infinity,
     color: Colors.pink.shade300,
-    child: Center(child: IconButton(
-    onPressed: () async{
-    final whatsappUrl= 'https://wa.me/+92334433716';
-    await launchUrl(Uri.parse(whatsappUrl));
-    },
-    icon: Icon(Icons.mail),
+    // child: Center(child: IconButton(
+    // onPressed: () async
+    // {
+    // //final whatsappUrl= 'https://wa.me/+92334433716';
+    // //await launchUrl(Uri.parse(whatsappUrl));
+    // },
+    // icon: Icon(Icons.mail),
     // Text('Desktop View',style: TextStyle(fontWeight:FontWeight.bold,color: Colors.black87,fontSize: 19)),
     //
 
