@@ -31,6 +31,7 @@ class _DesktopHomeViewState extends State<DesktopHomeView> {
     leading: Icon(Icons.settings),
     title: Text('Settings'),
     )
+
     ],
     ),
     ),
