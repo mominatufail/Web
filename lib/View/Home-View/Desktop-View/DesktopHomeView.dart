@@ -25,7 +25,7 @@ class _DesktopHomeViewState extends State<DesktopHomeView> {
     Navigator.push(context, CupertinoPageRoute(
     builder: (context) => DesktopHomeView()));
     },
-    leading: Icon(Icons.home),
+    leading: Icon(Icons.home_filled),
     title: Text('Home')),
     ListTile(
     leading: Icon(Icons.settings),
